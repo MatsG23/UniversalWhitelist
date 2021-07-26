@@ -1,13 +1,12 @@
 <div align="center">
  
  # UniversalWhitelist
-![GitHub License](https://img.shields.io/github/license/JorelAli/CommandAPI)
-![Spiget Download Size](https://img.shields.io/spiget/download-size/62353)
-![Spiget Downloads](https://img.shields.io/spiget/downloads/62353?label=Total%20Spigot%20Downloads)
+![GitHub License](https://img.shields.io/github/license/MatsG23/UniversalWhitelist)
+![Spiget Downloads](https://img.shields.io/spiget/downloads/94686?label=Total%20Spigot%20Downloads)
 
 <br>
  
-<img width="20px" src="https://icon-icons.com/icons2/2348/PNG/512/download_arrow_icon_143023.png"></img> [Download (Spigot)](https://google.de)
+<img width="20px" src="https://icon-icons.com/icons2/2348/PNG/512/download_arrow_icon_143023.png"></img> [Download](https://github.com/MatsG23/UniversalWhitelist/releases/latest)
 </div>
 
 UniversalWhitelist natively runs on **Minecraft 1.17.1**.

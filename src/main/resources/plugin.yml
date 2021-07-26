@@ -1,0 +1,10 @@
+name: $name
+main: main.UniversalWhitelist
+version: $version
+author: MatsG23
+website: "https://github.com"
+api-version: 1.13
+prefix: $name
+
+depend:
+  - CommandAPI

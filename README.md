@@ -23,21 +23,21 @@ The plugin provides an improved version of the in-built whitelist system:
 -----
 
 ## Commands
-The plugin overrides the existing `/whitelist` command. All commands start with this command. They will be suggested
-in-game, and you can see if you need specific arguments (big thanks to [CommandAPI](https://github.com/JorelAli/CommandAPI)).
+The plugin overrides the existing `/whitelist` command. All commands start with this command. The commands will be suggested
+with its arguments in-game (thanks to [CommandAPI](https://github.com/JorelAli/CommandAPI)).
 **You need the permission _whitelist.manage_ (or OP rights) to use the commands in-game!
 If you add a Floodgate user, make sure to add the username prefix (in my case ".")**
 
-### `/whitelist adduuid`
+### `/whitelist adduuid <uuid>`
 add an uuid to the whitelist
 
-### `/whitelist removeuuid`
+### `/whitelist removeuuid <uuid>`
 removes an uuid from the whitelist
 
-### `/whitelist add`
+### `/whitelist add <name>`
 add a username to the whitelist
 
-### `/whitelist remove`
+### `/whitelist remove <name>`
 remove a username from the whitelist
 
 ### `/whitelist on`

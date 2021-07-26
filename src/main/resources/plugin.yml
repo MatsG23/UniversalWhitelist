@@ -2,8 +2,8 @@ name: $name
 main: main.UniversalWhitelist
 version: $version
 author: MatsG23
-website: "https://github.com"
-api-version: 1.13
+website: "https://github.com/MatsG23/UniversalWhitelist"
+api-version: 1.17
 prefix: $name
 
 depend:

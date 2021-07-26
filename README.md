@@ -10,7 +10,8 @@
 <img width="20px" src="https://icon-icons.com/icons2/2348/PNG/512/download_arrow_icon_143023.png"></img> [Download (Spigot)](https://google.de)
 </div>
 
-UniversalWhitelist runs on **Minecraft 1.13.x - 1.17.1**
+UniversalWhitelist natively runs on **Minecraft 1.17.1**.
+I haven't tested it on earlier versions yet, you can definitely give it a try if you run a earlier version of Minecraft.
 
 -----
 
@@ -23,38 +24,34 @@ The plugin provides an improved version of the in-built whitelist system:
 -----
 
 ## Commands
-
-The plugin overrides the existing `/whitelist` command and uses it as a plugin interface.
-That means that all commands must be added as a suffix. All commands will be suggested
-in-game, and you can see if you need specific arguments 
-(big thanks to [CommandAPI](https://github.com/JorelAli/CommandAPI)).
+The plugin overrides the existing `/whitelist` command. All commands start with this command. They will be suggested
+in-game, and you can see if you need specific arguments (big thanks to [CommandAPI](https://github.com/JorelAli/CommandAPI)).
 **You need the permission _whitelist.manage_ (or OP rights) to use the commands in-game!
 If you add a Floodgate user, make sure to add the username prefix (in my case ".")**
 
-### `adduuid`
+### `/whitelist adduuid`
 add an uuid to the whitelist
 
-### `removeuuid`
+### `/whitelist removeuuid`
 removes an uuid from the whitelist
 
-### `add`
+### `/whitelist add`
 add a username to the whitelist
 
-### `remove`
+### `/whitelist remove`
 remove a username from the whitelist
 
-### `on`
+### `/whitelist on`
 turn the whitelist on
 
-### `off` 
+### `/whitelist off` 
 turn the whitelist off
 
-### `status`
+### `/whitelist status`
 see the status of the whitelist (on or off)
 
-### `list`
+### `/whitelist list`
 see the whitelisted players
 
-### `reload`
+### `/whitelist reload`
 reload the plugin's config (config.yml)
-

@@ -18,8 +18,8 @@ repositories {
 
 dependencies {
     implementation(kotlin("stdlib"))
+    implementation("dev.jorel.CommandAPI:commandapi-shade:6.2.0")
     compileOnly("io.papermc.paper:paper-api:1.17.1-R0.1-SNAPSHOT")
-    compileOnly("dev.jorel.CommandAPI:commandapi-core:6.1.0")
 }
 
 tasks {

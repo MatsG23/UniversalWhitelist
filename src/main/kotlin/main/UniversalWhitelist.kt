@@ -2,6 +2,7 @@ package main
 
 import dev.jorel.commandapi.CommandAPI
 import dev.jorel.commandapi.CommandAPICommand
+import dev.jorel.commandapi.CommandAPIConfig
 import dev.jorel.commandapi.arguments.StringArgument
 import dev.jorel.commandapi.arguments.UUIDArgument
 import dev.jorel.commandapi.executors.CommandExecutor
@@ -16,6 +17,8 @@ import java.util.*
 
 class UniversalWhitelist : JavaPlugin() {
     private val whitelist = YMLHelper("whitelist", this)
+
+    override fun onLoad() = CommandAPI.onLoad(CommandAPIConfig())
 
     override fun onEnable() {
         saveDefaultConfig()
@@ -32,6 +35,8 @@ class UniversalWhitelist : JavaPlugin() {
     }
 
     private fun registerCommands() {
+        CommandAPI.onEnable(this)
+
         val addUUID = CommandAPICommand("adduuid")
             .withArguments(UUIDArgument("a uuid"))
             .executes(CommandExecutor { sender, args ->

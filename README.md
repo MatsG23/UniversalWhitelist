@@ -10,23 +10,26 @@
 </div>
 
 UniversalWhitelist natively runs on **Minecraft 1.17.1**.
-I haven't tested it on earlier versions yet, you can definitely give it a try if you run a earlier version of Minecraft.
+I didn't test it on other versions, but you should definitely try it!
 
 -----
 
-## Purpose
-The plugin provides an improved version of the in-built whitelist system:
- 
-- it works for Floodgate (Geyser) users
-- allows you to customize the whitelist messages and more
-- is maintained
+## Description
+This plugin improves the in-built whitelist system.
+
+New/improved features:
+- can block Bedrock (Geyser) players
+- all messages are fully customizable and translatable
+
 -----
 
 ## Commands
-The plugin overrides the existing `/whitelist` command. All commands start with this command. The commands will be suggested
-with its arguments in-game (thanks to [CommandAPI](https://github.com/JorelAli/CommandAPI)).
-**You need the permission _whitelist.manage_ (or OP rights) to use the commands in-game!
-If you add a Floodgate user, make sure to add the username prefix (in my case ".")**
+The default `/whitelist` command is overridden and extended.
+**For all commands you need the permission _whitelist.manage_.
+Also, if you add a Floodgate user, make sure to add the username prefix as well (by default ".").**
+
+I tried my best to make the command names self-explanatory. Nonetheless,
+here you see which command does what:
 
 ### `/whitelist adduuid <uuid>`
 add an uuid to the whitelist

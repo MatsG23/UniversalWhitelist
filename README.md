@@ -1,11 +1,11 @@
-<div align="center">
+<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
  
  # UniversalWhitelist
 ![GitHub License](https://img.shields.io/github/license/MatsG23/UniversalWhitelist)
 ![Spiget Downloads](https://img.shields.io/spiget/downloads/94686?label=Total%20Spigot%20Downloads)
-
-<br>
  
+<img width="150px" src="https://github.com/MatsG23/reference-images/raw/main/stop.png"></img>
+
 <img width="20px" src="https://icon-icons.com/icons2/2348/PNG/512/download_arrow_icon_143023.png"></img> [Download](https://github.com/MatsG23/UniversalWhitelist/releases/latest)
 </div>
 

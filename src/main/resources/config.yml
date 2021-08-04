@@ -1,18 +1,13 @@
-# if the whitelist should be active or not (if you permanently want to disable it, delete the plugin from the server)
-activated: true
-
-# customize all messages
+# here you can customize every message
 messages:
-  not_whitelisted: "You're not whitelisted. If you believe this is a mistake, contact the server owner."
-  kicked_no_longer_whitelisted: "You have just been removed from the whitelist and therefore kicked"
-  uuid_already_added: "UUID '%s' is already added to the whitelist"
-  uuid_added: "UUID '%s' has successfully been added to the whitelist"
-  uuid_removed: "UUID '%s' has successfully been removed from the whitelist"
-  player_already_added: "Player '%s' is already added to the whitelist"
-  player_added: "Player '%s' has successfully been added to the whitelist"
-  player_removed: "Player '%s' has successfully been removed from the whitelist"
-  whitelist_turned_on: "The whitelist has been turned on"
-  whitelist_turned_off: "The whitelist has been turned off"
+  not_whitelisted: "You're not whitelisted."
+  no_longer_whitelisted: "You was just removed from the whitelist and therefore kicked."
+  whitelist_now_on: "The whitelist was just turned on. You was kicked because you're not on the whitelist."
+  added: "Player '%s' was successfully added to the whitelist"
+  already_added: "Player '%s' is already on the whitelist"
+  removed: "Player '%s' was successfully removed from the whitelist"
+  whitelist_turned_on: "The whitelist was turned on"
+  whitelist_turned_off: "The whitelist was turned off"
   whitelist_on: "The whitelist is currently on"
   whitelist_off: "The whitelist is currently off"
   players_on_whitelist: "This player names are whitelisted: %s"

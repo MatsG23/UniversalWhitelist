@@ -1,20 +1,21 @@
 package main
 
+import main.tools.LangHelper
+import main.tools.LangStrings
 import main.tools.YMLHelper
 import net.kyori.adventure.text.Component
-import org.bukkit.configuration.file.FileConfiguration
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.player.AsyncPlayerPreLoginEvent
 
 
-class LoginListener(private val whitelist: YMLHelper, private val pluginConfig: FileConfiguration) : Listener {
+class LoginListener(private val whitelist: YMLHelper, private val langHelper: LangHelper) : Listener {
     @EventHandler
     private fun onPlayerLogin(event: AsyncPlayerPreLoginEvent) {
-        if (pluginConfig.getBoolean("activated") && !getPlayerIsOnWhitelist(event)) {
+        if (UniversalWhitelist.whitelistActivated && !getPlayerIsOnWhitelist(event)) {
             event.disallow(
                 AsyncPlayerPreLoginEvent.Result.KICK_WHITELIST,
-                Component.text(pluginConfig.getString("messages.not_whitelisted")!!)
+                Component.text(langHelper.get(LangStrings.NOT_WHITELISTED))
             )
         }
     }

@@ -1,4 +1,4 @@
-<div style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+<div align="center">
  
  # UniversalWhitelist
 ![GitHub License](https://img.shields.io/github/license/MatsG23/UniversalWhitelist)

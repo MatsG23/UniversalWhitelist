@@ -4,13 +4,12 @@
 ![GitHub License](https://img.shields.io/github/license/MatsG23/UniversalWhitelist)
 ![Spiget Downloads](https://img.shields.io/spiget/downloads/94686?label=Total%20Spigot%20Downloads)
  
-<img width="150px" src="https://github.com/MatsG23/reference-images/raw/main/stop.png"></img>
+<img width="150px" src="https://raw.githubusercontent.com/MatsG23/UniversalWhitelist/master/stop-sign.png"></img>
 
-<img width="20px" src="https://icon-icons.com/icons2/2348/PNG/512/download_arrow_icon_143023.png"></img> [Download](https://github.com/MatsG23/UniversalWhitelist/releases/latest)
+[Download](https://github.com/MatsG23/UniversalWhitelist/releases/latest)
 </div>
 
-UniversalWhitelist natively runs on **Minecraft 1.17.1**.
-I didn't test it on other versions, but you should definitely try it!
+UniversalWhitelist runs natively on **Minecraft 1.17.1**.
 
 -----
 

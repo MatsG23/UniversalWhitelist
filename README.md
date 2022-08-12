@@ -9,6 +9,10 @@
 [Download](https://github.com/MatsG23/UniversalWhitelist/releases/latest)
 </div>
 
+**Since August 2021, this plugin has not received any update. I have stopped maintaining it in favor of the [new whitelist command in Floodgate 2.0](https://wiki.geysermc.org/floodgate/features/#whitelist-command).**
+
+-----
+
 UniversalWhitelist runs natively on **Minecraft 1.17.1**.
 
 -----
